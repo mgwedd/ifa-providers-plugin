@@ -3,11 +3,11 @@
 /**
  * Fired during plugin activation
  *
- * @link       http://example.com
+ * @link       http://iotforall.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    IFA_Providers
+ * @subpackage IFA_Providers/includes
  */
 
 /**
@@ -16,11 +16,11 @@
  * This class defines all code necessary to run during the plugin's activation.
  *
  * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
- * @author     Your Name <email@example.com>
+ * @package    IFA_Providers
+ * @subpackage IFA_Providers/includes
+ * @author     Michael Wedd <michael.wedd@leverege.com>
  */
-class Plugin_Name_Activator {
+class IFA_Providers_Activator {
 
 	/**
 	 * Short Description. (use period)

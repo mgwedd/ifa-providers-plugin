@@ -3,11 +3,11 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://example.com
+ * @link       http://iotforall.com
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    IFA_Provider
+ * @subpackage IFA_Provider/includes
  */
 
 /**
@@ -17,11 +17,11 @@
  * the plugin, and register them with the WordPress API. Call the
  * run function to execute the list of actions and filters.
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
- * @author     Your Name <email@example.com>
+ * @package    IFA_Providers
+ * @subpackage IFA_Providers/includes
+ * @author     Michael Wedd <michael.wedd@leverege.com>
  */
-class Plugin_Name_Loader {
+class IFA_Providers_Loader {
 
 	/**
 	 * The array of actions registered with WordPress.
