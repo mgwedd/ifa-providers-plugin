@@ -1,34 +1,11 @@
-# WordPress Plugin Boilerplate
-
-A standardized, organized, object-oriented foundation for building high-quality WordPress Plugins.
-
-## Contents
-
-The WordPress Plugin Boilerplate includes the following files:
-
-* `.gitignore`. Used to exclude certain files from the repository.
-* `CHANGELOG.md`. The list of changes to the core project.
-* `README.md`. The file that you’re currently reading.
-* A `plugin-name` directory that contains the source code - a fully executable WordPress plugin.
+# IFA Providers Wordpress Plugin
 
 ## Features
 
 * The Boilerplate is based on the [Plugin API](http://codex.wordpress.org/Plugin_API), [Coding Standards](http://codex.wordpress.org/WordPress_Coding_Standards), and [Documentation Standards](https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/php/).
-* All classes, functions, and variables are documented so that you know what you need to change.
-* The Boilerplate uses a strict file organization scheme that corresponds both to the WordPress Plugin Repository structure, and that makes it easy to organize the files that compose the plugin.
+* All classes, functions, and variables are documented for changeability.
+* Uses a strict file organization scheme that corresponds both to the WordPress Plugin Repository structure, and that makes it easy to organize the files that compose the plugin.
 * The project includes a `.pot` file as a starting point for internationalization.
-
-## Installation
-
-The Boilerplate can be installed directly into your plugins folder "as-is". You will want to rename it and the classes inside of it to fit your needs. For example, if your plugin is named 'example-me' then:
-
-* rename files from `plugin-name` to `example-me`
-* change `plugin_name` to `example_me`
-* change `plugin-name` to `example-me`
-* change `Plugin_Name` to `Example_Me`
-* change `PLUGIN_NAME_` to `EXAMPLE_ME_`
-
-It's safe to activate the plugin at this point. Because the Boilerplate has no real functionality there will be no menu items, meta boxes, or custom post types added until you write the code.
 
 ## WordPress.org Preparation
 
